@@ -55,13 +55,16 @@ int main(int argc, char *argv[])
   printf("<h2>For location (Lat-Long): %s</h2>\n", argv[1]);
   printf("<p>\n");
   printf("<a href=\"https://www.3geonames.org/%s\">3Geonames</a><br>\n", argv[1]);
-  printf("<a href=\"https://api.3geonames.org/%s\">3Geonames API</a><br>\n", argv[1]);
+  printf("<a href=\"https://api.3geonames.org/%s\">3Geonames API XML</a><br>\n", argv[1]);
+  printf("<a href=\"https://api.3geonames.org/%s.json\">3Geonames API JSON</a><br>\n", argv[1]);
   printf("<a href=\"https://geocode.xyz/%s\">Geocode.xyz</a><br>\n", argv[1]);
   printf("<a href=\"https://geocode.xyz/%s?geoit=xml\">Geocode.xyz XML</a><br>\n", argv[1]);
+  printf("<a href=\"https://geocode.xyz/%s?geoit=json\">Geocode.xyz JSON</a><br>\n", argv[1]);
   printf("<a href=\"http://geohash.org?q=%s&format=url&redirect=0\">Geohash: URL</a><br>\n", argv[1]);
   printf("<a href=\"http://geohash.org?q=%s&format=osm\">Geohash: OpenStreetmap</a><br>\n", argv[1]);
   printf("<a href=\"http://geohash.org?q=%s&format=gmaps\">Geohash: Google Maps</a><br>\n", argv[1]);
-  printf("<a href=\"https://api.mapcode.com/mapcode/codes/%s\">Mapcode REST-API</a><br>\n", argv[1]);
+  printf("<a href=\"https://api.mapcode.com/mapcode/xml/codes/%s\">Mapcode REST-API XML</a><br>\n", argv[1]);
+  printf("<a href=\"https://api.mapcode.com/mapcode/json/codes/%s\">Mapcode REST-API JSON</a><br>\n", argv[1]);
   printf("<a href=\"https://plus.codes/api?address=%s\">Plus Codes API</a><br>\n", argv[1]);
   printf("<a href=\"https://www.geoplaner.com/?z=10;p=%s;;\">Geoplaner</a><br>\n", argv[1]);
   printf("<a href=\"https://wego.here.com/?x=ep&map=%s,10,normal\">Here We Go</a><br>\n", argv[1]);
