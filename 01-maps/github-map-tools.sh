@@ -15,7 +15,7 @@ git clone git://github.com/mapcode-foundation/mapcode-rest-service.git 0003-mapc
 
 # Open Location Codes / Plus Codes
 git clone git://github.com/google/open-location-code.git 0004-pluscode
-git clone git://github.com/gonzus/olc.git 0004-olc
+git clone git://github.com/cvzi/open-location-code-demo.git 0004-olc-demo
 
 # MGRS
 git clone git://github.com/sotex/geographiclib.git 0005-mgrs-geographiclib
