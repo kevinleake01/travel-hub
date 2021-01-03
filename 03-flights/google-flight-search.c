@@ -5,9 +5,9 @@
 #
 # Example usage:
 #
-# Flight from London to New York, departing on 5th January 2021, returning on 19th January 2021, paid using British Pound Sterling.
+# Flight from London to New York, departing on 10th September 2021, returning on 24th September 2021, paid using British Pound Sterling.
 #
-# gcc google-flight-search.c; ./a.out LHR.JFK.2021-01-05 JFK.LHR.2021-01-19 GBP > flight-search-0001.html
+# gcc google-flight-search.c; ./a.out LHR.JFK.2021-09-10 JFK.LHR.2021-09-24 GBP > flight-search-0001.html
 #
 ####################################
 */
