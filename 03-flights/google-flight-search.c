@@ -5,9 +5,9 @@
 #
 # Example usage:
 #
-# Flight from London to New York, departing on 10th September 2021, returning on 24th September 2021, paid using British Pound Sterling.
+# Flight from London to New York, departing on 10th September 2021, returning on 24th September 2021.
 #
-# gcc google-flight-search.c; ./a.out LHR.JFK.2021-09-10 JFK.LHR.2021-09-24 GBP > flight-search-0001.html
+# gcc google-flight-search.c; ./a.out LHR.JFK.2021-09-10 JFK.LHR.2021-09-24 > flight-search-0001.html
 #
 ####################################
 */
@@ -47,9 +47,8 @@ int main(int argc, char *argv[])
   printf("<h1>Google Flight Search</h1>\n");
   printf("<p>\n");
   printf("Depart: %s<br>\n", argv[1]);
-  printf("Return: %s<br>\n", argv[2]);
-  printf("Currency: %s<br><br>\n\n", argv[3]);
-  printf("<a href=\"https://www.google.com/flights\?hl=en#flt=%s*%s;c:%s;e:1;sd:1;t:f\">----- SEARCH HERE FOR FLIGHTS -----</a><br>\n", argv[1], argv[2], argv[3]);
+  printf("Return: %s<br><br>\n\n", argv[2]);
+  printf("<a href=\"https://www.google.com/flights\?hl=en#flt=%s*%s\">----- SEARCH HERE FOR FLIGHTS -----</a><br>\n", argv[1], argv[2]);
   printf("</p>\n");
   printf("</body>\n");
   printf("</html>\n");
