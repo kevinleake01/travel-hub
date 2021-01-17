@@ -33,6 +33,7 @@ int main(int argc, char *argv[])
   printf("body {\n");
   printf("  background-color: #000000;\n");
   printf("  color: #FFFFFF;\n");
+  printf("  font-family: monospace;\n");
   printf("}\n");
   printf("h1 {\n");
   printf("  background-color: #585858;\n");
