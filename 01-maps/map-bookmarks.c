@@ -55,6 +55,7 @@ int main(int argc, char *argv[])
   printf("<h1>Map Bookmarks</h1>\n");
   printf("<h2>For location (Lat-Long): %s</h2>\n", argv[1]);
   printf("<p>\n");
+  printf("<a href=\"geo:%s\">Geo URI</a><br>\n", argv[1]);
   printf("<a href=\"https://www.3geonames.org/%s\">3Geonames</a><br>\n", argv[1]);
   printf("<a href=\"https://api.3geonames.org/%s\">3Geonames API XML</a><br>\n", argv[1]);
   printf("<a href=\"https://api.3geonames.org/%s.json\">3Geonames API JSON</a><br>\n", argv[1]);
@@ -67,7 +68,10 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://api.mapcode.com/mapcode/xml/codes/%s\">Mapcode REST-API XML</a><br>\n", argv[1]);
   printf("<a href=\"https://api.mapcode.com/mapcode/json/codes/%s\">Mapcode REST-API JSON</a><br>\n", argv[1]);
   printf("<a href=\"https://plus.codes/api?address=%s\">Plus Codes API</a><br>\n", argv[1]);
-  printf("<a href=\"https://www.geoplaner.com/?z=10;p=%s;;\">Geoplaner</a><br>\n", argv[1]);
+  printf("<a href=\"https://www.geoplaner.com/?z=10;p=%s\">Geoplaner</a><br>\n", argv[1]);
+  printf("<a href=\"https://caltopo.com/map.html#ll=%s&z=10&b=mbt\">Caltopo: Mapbuilder Topo</a><br>\n", argv[1]);
+  printf("<a href=\"https://caltopo.com/map.html#ll=%s&z=10&b=om\">Caltopo: OpenStreetMap</a><br>\n", argv[1]);
+  printf("<a href=\"https://caltopo.com/map.html#ll=%s&z=10&b=imagery\">Caltopo: Global Imagery</a><br>\n", argv[1]);
   printf("<a href=\"https://wego.here.com/?x=ep&map=%s,10,normal\">Here We Go</a><br>\n", argv[1]);
   printf("<a href=\"https://mappingsupport.com/p2/gissurfer.php?center=%s&zoom=10&basemap=ESRI_Topographic\">Mappingsupport: ESRI Topographic</a><br>\n", argv[1]);
   printf("<a href=\"https://mappingsupport.com/p2/gissurfer.php?center=%s&zoom=10&basemap=ESRI_Streets\">Mappingsupport: ESRI Streets</a><br>\n", argv[1]);
