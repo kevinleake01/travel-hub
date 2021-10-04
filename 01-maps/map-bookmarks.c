@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://api.mapcode.com/mapcode/xml/codes/%s\">Mapcode REST-API XML</a><br>\n", argv[1]);
   printf("<a href=\"https://api.mapcode.com/mapcode/json/codes/%s\">Mapcode REST-API JSON</a><br>\n", argv[1]);
   printf("<a href=\"https://plus.codes/api?address=%s\">Plus Codes API</a><br>\n", argv[1]);
-  printf("<a href=\"https://www.geoplaner.com/?z=10;p=%s\">Geoplaner</a><br>\n", argv[1]);
+  printf("<a href=\"https://www.geoplaner.com/?z=10;p=%s;\">Geoplaner</a><br>\n", argv[1]);
   printf("<a href=\"https://caltopo.com/map.html#ll=%s&z=10&b=mbt\">Caltopo: Mapbuilder Topo</a><br>\n", argv[1]);
   printf("<a href=\"https://caltopo.com/map.html#ll=%s&z=10&b=om\">Caltopo: OpenStreetMap</a><br>\n", argv[1]);
   printf("<a href=\"https://caltopo.com/map.html#ll=%s&z=10&b=imagery\">Caltopo: Global Imagery</a><br>\n", argv[1]);
