@@ -86,6 +86,7 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://coordinates-converter.com/en/decimal/%s\">Coordinates Converter</a><br>\n", argv[1]);
   printf("<a href=\"https://geographiclib.sourceforge.io/cgi-bin/GeoConvert?input=%s\">Geographiclib: Geoconvert</a><br>\n", argv[1]);
   printf("<a href=\"http://www.nearby.org.uk/coord.cgi?p=%s&f=full\">Nearby.org.uk: Coordinate Converter</a><br>\n", argv[1]);
+  printf("<a href=\"https://what3words.com/%s\">What3Words</a><br>\n", argv[1]);
   printf("</p>\n");
   printf("</body>\n");
   printf("</html>\n");
