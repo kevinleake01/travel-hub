@@ -63,6 +63,7 @@ int main(int argc, char *argv[])
   printf("<a href=\"http://geohash.org?q=%s,%s&format=gpx\">Geohash: GPX</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"http://geohash.org?q=%s,%s&format=garmin\">Geohash: Garmin</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"http://geohash.org?q=%s,%s&format=url&redirect=0\">Geohash: URL</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://s3.eu-central-1.amazonaws.com/download.mapcode.com/getcoordst.html?yy=%s&xx=%s\">Mapcode</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://api.mapcode.com/mapcode/xml/codes/%s,%s\">Mapcode REST-API XML</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://api.mapcode.com/mapcode/json/codes/%s,%s\">Mapcode REST-API JSON</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://plus.codes/%s,%s\">Plus Codes</a><br>\n", argv[1], argv[2]);
