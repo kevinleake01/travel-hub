@@ -87,8 +87,10 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.geody.com/geolook.php?world=terra&lat=%s&lon=%s\">Geody</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.heavens-above.com/?lat=%s&lng=%s&loc=-----&alt=20&tz=UCT\">Heavens Above</a> (Astronomy)<br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.flightradar24.com/%s,%s/10\">Flightradar24</a> (Flights)<br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://www.radarbox.com/@%s,%s,z10\">AirNav Radarbox</a> (Flights)<br>\n", argv[1], argv[2]);
   printf("<a href=\"https://globe.adsbexchange.com/?lat=%s&lon=%s&zoom=10\">ADSB Exchange</a> (Flights)<br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.marinetraffic.com/en/ais/home/centerx:%s/centery:%s/zoom:10\">Marine Traffic</a> (Ships and Ferries)<br>\n", argv[2], argv[1]);
+  printf("<a href=\"https://fmscan.org/main.php?l=%s&b=%s&qth=0001&csave=1\">FMScan</a> (Radio Stations)<br>\n", argv[2], argv[1]);
   printf("</p>\n");
   printf("</body>\n");
   printf("</html>\n");
