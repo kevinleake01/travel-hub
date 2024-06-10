@@ -1,0 +1,42 @@
+{
+    "@context": "http://schema.org",
+    "@type": "LodgingReservation",
+    "checkinTime": {
+        "@type": "QDateTime",
+        "@value": "2024-06-10T15:37:00-04:00",
+        "timezone": "America/New_York"
+    },
+    "checkoutTime": {
+        "@type": "QDateTime",
+        "@value": "2024-06-14T10:17:00-04:00",
+        "timezone": "America/New_York"
+    },
+    "priceCurrency": "USD",
+    "reservationFor": {
+        "@type": "LodgingBusiness",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "US",
+            "addressLocality": "Orlando",
+            "postalCode": "32819",
+            "streetAddress": "6550 Adventure Way"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 28.46539878845215,
+            "longitude": -81.47367858886719
+        },
+        "name": "Universal's Cabana Bay Beach Resort"
+    },
+    "reservationNumber": "M479F227493265",
+    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservedTicket": {
+        "@type": "Ticket",
+        "ticketNumber": "M479F227493265",
+        "ticketToken": "qrCode:M479F227493265"
+    },
+    "underName": {
+        "@type": "Person",
+        "name": "Name Surname"
+    }
+}

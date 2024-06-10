@@ -1,0 +1,49 @@
+{
+    "@context": "http://schema.org",
+    "@type": "EventReservation",
+    "priceCurrency": "GBP",
+    "reservationFor": {
+        "@type": "Event",
+        "doorTime": {
+            "@type": "QDateTime",
+            "@value": "2024-06-15T17:52:00+01:00",
+            "timezone": "Europe/London"
+        },
+        "endDate": {
+            "@type": "QDateTime",
+            "@value": "2024-06-15T23:42:00+01:00",
+            "timezone": "Europe/London"
+        },
+        "location": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "GB",
+                "addressLocality": "London"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 51.48933410644531,
+                "longitude": -0.1440550833940506
+            },
+            "name": "Test Event in London"
+        },
+        "name": "Test Event in London 20240817-1800",
+        "startDate": {
+            "@type": "QDateTime",
+            "@value": "2024-08-17T18:22:00+01:00",
+            "timezone": "Europe/London"
+        },
+        "url": "https://test1234.com/498332184"
+    },
+    "reservationNumber": "F487S216Y554",
+    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservedTicket": {
+        "@type": "Ticket",
+        "ticketToken": "qrcode:GE4DO2BZNRQXUJTS"
+    },
+    "underName": {
+        "@type": "Person",
+        "name": "Name Surname"
+    }
+}

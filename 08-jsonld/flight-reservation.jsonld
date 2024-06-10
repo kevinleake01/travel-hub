@@ -1,0 +1,66 @@
+{
+    "@context": "http://schema.org",
+    "@type": "FlightReservation",
+    "airplaneSeat": "1A",
+    "modifiedTime": "2024-06-07T00:00:00",
+    "passengerSequenceNumber": "1",
+    "programMembershipUsed": {
+        "@type": "ProgramMembership",
+        "member": {
+            "@type": "Person",
+            "familyName": "SURNAME",
+            "givenName": "NAME",
+            "name": "NAME SURNAME"
+        },
+        "membershipNumber": "0000000000000001",
+        "programName": "BA"
+    },
+    "reservationFor": {
+        "@type": "Flight",
+        "airline": {
+            "@type": "Airline",
+            "iataCode": "BA"
+        },
+        "arrivalAirport": {
+            "@type": "Airport",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "US"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 40.63970184326172,
+                "longitude": -73.77890014648438
+            },
+            "iataCode": "JFK"
+        },
+        "departureAirport": {
+            "@type": "Airport",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "GB"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 51.46609878540039,
+                "longitude": -0.4656749963760376
+            },
+            "iataCode": "LHR"
+        },
+        "departureDay": "2031-01-01",
+        "flightNumber": "1234"
+    },
+    "reservationNumber": "ABC1234",
+    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservedTicket": {
+        "@type": "Ticket",
+        "ticketNumber": "125 0000000001",
+        "ticketToken": "qrCode:M1SURNAME/NAME        EABC1234LHRJFKBA 1234 001Y001A0001 367>7320WW1001BBA 0000000001001000000000200100000000030012A125000000000100BA BA 0000000000000001425KY12345^10512345"
+    },
+    "underName": {
+        "@type": "Person",
+        "familyName": "SURNAME",
+        "givenName": "NAME",
+        "name": "NAME SURNAME"
+    }
+}

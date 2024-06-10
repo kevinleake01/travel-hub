@@ -1,0 +1,56 @@
+{
+    "@context": "http://schema.org",
+    "@type": "BoatReservation",
+    "priceCurrency": "GBP",
+    "reservationFor": {
+        "@type": "BoatTrip",
+        "departureBoatTerminal": {
+            "@type": "BoatTerminal",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "GB",
+                "addressLocality": "Dover"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 51.1268,
+                "longitude": 1.3293
+            },
+            "name": "Dover"
+        },
+        "departureTime": {
+            "@type": "QDateTime",
+            "@value": "2024-07-08T14:00:00+01:00",
+            "timezone": "Europe/London"
+        },
+        "arrivalBoatTerminal": {
+            "@type": "BoatTerminal",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "FR",
+                "addressLocality": "Calais"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 50.9670,
+                "longitude": 1.8623
+            },
+            "name": "Calais"
+        },
+        "arrivalTime": {
+            "@type": "QDateTime",
+            "@value": "2024-07-08T16:45:00+02:00",
+            "timezone": "Europe/Paris"
+        }
+    },
+    "reservationNumber": "TFX398502198",
+    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservedTicket": {
+        "@type": "Ticket",
+        "ticketToken": "qrcode:TFX398502198"
+    },
+    "underName": {
+        "@type": "Person",
+        "name": "Name Surname"
+    }
+}

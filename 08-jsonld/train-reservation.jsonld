@@ -1,0 +1,66 @@
+{
+    "@context": "http://schema.org",
+    "@type": "TrainReservation",
+    "priceCurrency": "GBP",
+    "reservationFor": {
+        "@type": "TrainTrip",
+        "arrivalStation": {
+            "@type": "TrainStation",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "GB",
+                "addressLocality": "York (York)"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 53.95802,
+                "longitude": -1.09320
+            },
+            "name": "York Rail Station"
+        },
+        "arrivalTime": {
+            "@type": "QDateTime",
+            "@value": "2024-06-10T17:52:00+01:00",
+            "timezone": "Europe/London"
+        },
+        "departureDay": "2024-06-10",
+        "departureStation": {
+            "@type": "TrainStation",
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "GB",
+                "addressLocality": "Kings Cross (London)"
+            },
+            "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": 51.53159,
+                "longitude": -0.12398
+            },
+            "name": "London King's Cross Rail Station"
+        },
+        "departureTime": {
+            "@type": "QDateTime",
+            "@value": "2024-06-10T16:00:00+01:00",
+            "timezone": "Europe/London"
+        },
+        "trainName": "Train",
+        "trainNumber": "1246722"
+    },
+    "reservationNumber": "E38G44X21578",
+    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservedTicket": {
+        "@type": "Ticket",
+        "ticketNumber": "E38G44X21578",
+        "ticketToken": "qrCode:E38G44X21578",
+        "ticketedSeat": {
+            "@type": "Seat",
+            "seatNumber": "32",
+            "seatSection": "F",
+            "seatingType": "Economy"
+        }
+    },
+    "underName": {
+        "@type": "Person",
+        "name": "Name Surname"
+    }
+}

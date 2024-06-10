@@ -1,0 +1,43 @@
+{
+    "@context": "http://schema.org",
+    "@type": "FoodEstablishmentReservation",
+    "startTime": {
+        "@type": "QDateTime",
+        "@value": "2024-07-03T18:00:00+04:00",
+        "timezone": "Asia/Dubai"
+    },
+    "endTime": {
+        "@type": "QDateTime",
+        "@value": "2024-07-03T20:00:00+04:00",
+        "timezone": "Asia/Dubai"
+    },
+    "partySize": 0,
+    "priceCurrency": "AED",
+    "reservationFor": {
+        "@type": "FoodEstablishment",
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "AE",
+            "addressLocality": "Abu Dhabi",
+            "postalCode": "7HPP8GCR+M2",
+            "streetAddress": "Mohamed Bin Zayed City - Z20"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 24.32171,
+            "longitude": 54.54009
+        },
+        "name": "The Villa Seafood Restaurant",
+        "url": "https://thevilla-restaurant.com/"
+    },
+    "reservationNumber": "875K466F191",
+    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservedTicket": {
+        "@type": "Ticket",
+        "ticketToken": "qrcode:875K466F191"
+    },
+    "underName": {
+        "@type": "Person",
+        "name": "Name Surname"
+    }
+}
