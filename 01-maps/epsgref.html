@@ -88,7 +88,7 @@ Links:<br><br>
 <a href="https://epsg.org/crs_25828/index.html">EPSG:25828</a> to
 <a href="https://epsg.org/crs_25837/index.html">EPSG:25837</a> --- ETRS89 UTM Zones 28N to 37N<br>
 <a href="https://epsg.org/crs_27700/index.html">EPSG:27700</a> --- OSGB36 Great Britain<br>
-<a href="https://epsg.org/crs_2157/index.html">EPSG:2157</a> --- Irish Transverse Mercator<br>
+<a href="https://epsg.org/crs_2157/index.html">EPSG:2157</a> --- IRENET95 / Irish Transverse Mercator<br>
 <a href="https://epsg.org/crs_2056/index.html">EPSG:2056</a> --- CH1903+ / LV95 Switzerland<br>
 <br>
 Links:<br><br>
@@ -97,7 +97,17 @@ Links:<br><br>
 <a href="https://www.geohive.ie/">Geohive Ireland</a><br>
 <a href="https://www.swisstopo.admin.ch/en">Swisstopo</a><br>
 </p>
-<h2>Australia and New zealand</h2>
+<h2>South Africa</h2>
+<p>
+<a href="https://epsg.org/crs_2046/index.html">EPSG:2046</a> to
+<a href="https://epsg.org/crs_2055/index.html">EPSG:2055</a> --- Hartebeesthoek94 Lo15 to Lo33<br>
+<a href="https://epsg.org/crs_9221/index.html">EPSG:9221</a> --- Hartebeesthoek94 / ZAF BSU Albers 25E<br>
+<br>
+Links:<br><br>
+<a href="https://ngi.dalrrd.gov.za/index.php/technical-information/geodesy-and-gps/datum-s-and-coordinate-systems">Datums and Coordinate Systems</a><br>
+<a href="https://georein.com/posts/hartebeesthoek94/">South African Hartebeesthoek94 Coordinate System Web Map</a><br>
+</p>
+<h2>Australia and New Zealand</h2>
 <p>
 <a href="https://epsg.org/crs_7846/index.html">EPSG:7846</a> to
 <a href="https://epsg.org/crs_7859/index.html">EPSG:7859</a> --- GDA2020 MGA Zones 46 to 59<br>
@@ -111,13 +121,23 @@ Links:<br><br>
 <h2>EPSG Conversion and Transformation Tools</h2>
 <p>
 <a href="https://proj.org/">PROJ</a><br>
+<a href="https://proj.org/apps/cs2cs.html">PROJ: cs2cs</a><br>
 <a href="https://gdal.org/">GDAL</a><br>
 <a href="https://gdal.org/programs/gdaltransform.html">GDAL Transform</a><br>
 <a href="https://qgis.org/">QGIS</a><br>
-<a href="https://epsg.io/transform">Epsg.io</a><br>
-<a href="https://products.aspose.app/gis/transformation">Aspose Coordinates Converter</a><br>
 <a href="https://mygeodata.cloud/cs2cs/">MyGeodata Cloud</a><br>
 <a href="https://twcc.fr/en/">The World Coordinate Converter</a><br>
+<a href="https://epsg.io/transform">Epsg.io</a><br>
+<a href="https://products.aspose.app/gis/transformation">Aspose Coordinates Converter</a><br>
+<br>
+If you are using Proj, there is a tool named cs2cs that will convert EPSG numbers. We are going back to the<br>
+Royal Observatory in Greenwich to convert EPSG:4326 (WGS84 Lat,Long) to EPSG:27700 (OSGB36) by doing this:<br>
+<br>
+$ echo "51.47786 -0.00147" | cs2cs EPSG:4326 EPSG:27700<br>
+<br>
+And to convert back to EPSG:4326 (WGS84 Lat,Long):<br>
+<br>
+$ echo "538885 177327" | cs2cs EPSG:27700 EPSG:4326 -d 5<br>
 </p>
 <h2>More examples:</h2>
 <p>
@@ -143,9 +163,40 @@ EPSG:26985: 396941 135737<br>
 Singapore Changi Airport:<br><br>
 EPSG:3414: 37732 45259<br>
 -----------------------------<br>
-Near Arvika, Sweden:<br><br>
-EPSG:3006: 6620000 1317000<br>
+Arvika, Sweden:<br><br>
+EPSG:3006: 6615379 364287<br>
 -----------------------------<br>
+Santa Maria, Sal, Cape Verde:<br><br>
+EPSG:4826: 278145 213400<br>
+-----------------------------<br>
+Greenmarket Square, Cape Town, South Africa:<br><br>
+EPSG:2048: 53626 3755240<br>
+EPSG:9221: 843879 796553<br>
+-----------------------------<br>
+Manly Beach, Sydney, NSW, Australia:<br><br>
+EPSG:7856: 341527 6259020<br>
+EPSG:8058: 9696625 4431231<br>
+-----------------------------<br>
+Aquamarine Resort, Akshi, Kazakhstan:<br><br>
+EPSG:4326: 45.95462 81.56835<br>
+EPSG:2504: 5091246 544098<br>
+-----------------------------<br>
+Pevek, Chukotka:<br><br>
+EPSG:2519: 7736064 471673<br>
+EPSG:5940: 4067689 1047757<br>
+-----------------------------<br>
+Amundsen-Scott South Pole Station:<br><br>
+ESPG:5042: 2000000 2000000<br>
+ESPG:3031: 0 0<br>
+-----------------------------<br>
+</p>
+<h2>Dynamic Coordinate Reference Systems</h2>
+<p>
+<a href="https://itrf.ign.fr/en/homepage">International Terrestrial Reference Frame</a><br>
+<a href="https://www.iogp.org/workstreams/engineering/geomatics/geodesy/">IOGP: Geodesy</a><br>
+<a href="https://www.youtube.com/watch?v=IKM-bR6SwVs">Youtube: Dynamic Coordinate Reference Systems</a> (Video)<br>
+<a href="https://en.wikipedia.org/wiki/International_Terrestrial_Reference_System_and_Frame">Wikipedia: International Terrestrial Reference System and Frame</a><br>
+<a href="https://en.wikipedia.org/wiki/Geodetic_datum">Wikipedia: Geodetic datum</a><br>
 </p>
 </body>
 </html>
