@@ -57,6 +57,7 @@ int main(int argc, char *argv[])
   printf("<p>\n");
   printf("EPSG:4326: %s %s<br>\n", argv[1], argv[2]);
   printf("<a href=\"geo:%s,%s;crs=EPSG:4326;u=20\">Geo URI</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://crs-explorer.proj.org/?latlng=%s,%s&ignoreWorld=false&allowDeprecated=false&authorities=EPSG&activeTypes=PROJECTED_CRS&map=osm\">CRS Explorer</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.openstreetmap.org/#map=10/%s/%s\">Openstreetmap - Zoom x10</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.openstreetmap.org/#map=15/%s/%s\">Openstreetmap - Zoom x15</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://opentopomap.org/#map=10/%s/%s\">OpenTopomap - Zoom x10</a><br>\n", argv[1], argv[2]);
