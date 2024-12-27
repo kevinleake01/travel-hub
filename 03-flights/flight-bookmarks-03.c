@@ -7,9 +7,9 @@
 # 
 # Example Usage:
 # 
-# gcc flight-bookmarks-02.c; ./a.out BA 1234 > flight-bookmark-ba-1234.html
-# gcc flight-bookmarks-02.c; ./a.out BAW 1234 > flight-bookmark-ba-1234.html
-# gcc flight-bookmarks-02.c; ./a.out AA 5678 > flight-bookmark-aa-5678.html
+# gcc flight-bookmarks-03.c; ./a.out BA 1234 > flight-bookmark-ba-1234.html
+# gcc flight-bookmarks-03.c; ./a.out BAW 1234 > flight-bookmark-baw-1234.html
+# gcc flight-bookmarks-03.c; ./a.out AA 5678 > flight-bookmark-aa-5678.html
 #
 ####################################
 */
@@ -63,6 +63,8 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://flight-status.com/%s-%s\">Flight Status Tracker</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.google.com/search?q=Flight+%s+%s\">Google Flights</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://duckduckgo.com/?q=Flight+%s+%s\">DuckDuckGo</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://www.google.com/search?q=%s%s+Flight+Tracker\">Google: Flight Tracker</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://duckduckgo.com/?q=%s%s+Flight+Tracker\">DuckDuckGo: Flight Tracker</a><br>\n", argv[1], argv[2]);
   printf("</p>\n");
   printf("</body>\n");
   printf("</html>\n");

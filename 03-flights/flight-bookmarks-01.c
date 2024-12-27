@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
   printf("<html lang=\"en\">\n");
   printf("<head>\n");
   printf("<meta charset=\"utf-8\" >\n");
-  printf("<title>Map Bookmarks</title>\n");
+  printf("<title>Flight Bookmarks 01</title>\n");
   printf("<style>\n");
   printf("body {\n");
   printf("  background-color: #000000;\n");
