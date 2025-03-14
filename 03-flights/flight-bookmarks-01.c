@@ -65,6 +65,8 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.flightsfrom.com/%s\">FlightsFrom.com</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flightsleaving.com/%s\">Flights Leaving Today</a><br>\n", argv[1]);
   printf("<a href=\"https://airportguide.com/airport/info/%s\">Airport Guide</a><br>\n", argv[1]);
+  printf("<a href=\"https://info.flightmapper.net/airport/%s\">FlightMapper.net</a><br>\n", argv[1]);
+  printf("<a href=\"https://shipsgo.com/air/airports/%s\">Shipsgo</a><br>\n", argv[1]);
   printf("<a href=\"https://www.google.com/search?q=%s+Arrivals\">Google: Airport Arrivals</a><br>\n", argv[1]);
   printf("<a href=\"https://www.google.com/search?q=%s+Departures\">Google: Airport Departures</a><br>\n", argv[1]);
   printf("<a href=\"https://duckduckgo.com/?q=%s+Arrivals\">DuckDuckGo: Airport Arrivals</a><br>\n", argv[1]);
