@@ -75,6 +75,14 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.google.com/search?q=%s+Departures\">Google: Airport Departures</a><br>\n", argv[1]);
   printf("<a href=\"https://duckduckgo.com/?q=%s+Arrivals\">DuckDuckGo: Airport Arrivals</a><br>\n", argv[1]);
   printf("<a href=\"https://duckduckgo.com/?q=%s+Departures\">DuckDuckGo: Airport Departures</a><br>\n", argv[1]);
+  printf("<br>\n");
+  printf("----------------------------------------<br>\n");
+  printf("NOTE: You will have to enter the Airport Code manually to the<br>\n");
+  printf("website listed below:<br>\n");
+  printf("<br>\n");
+  printf("<a href=\"https://aviability.com/en/airport\">Aviability: Airport Information and Flight Status</a><br>\n");
+  printf("<br>\n");
+  printf("----------------------------------------<br>\n");
   printf("</p>\n");
   printf("</body>\n");
   printf("</html>\n");
