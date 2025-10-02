@@ -4,15 +4,23 @@
 # --- BCBP-MAKER-01.C ---
 
 This is the Airline Barcode Boarding Pass Maker, and this will create airline boarding pass
-data files for demonstration purposes. To get started, simply edit the details below to suit
-your own personal preferences. Then to create the BCBP data file, do this:
+data files for testing demonstration purposes. For more information, please go to:
+
+  https://github.com/topics/boardingpass
+  bcbp-implementation-guide-v5.pdf
+  bcbp-implementation-guide-v7.pdf
+
+
+To get started, simply edit the details below to suit your own personal preferences. Then to
+create the BCBP data file, do this:
 
   gcc bcbp-maker-01.c; ./a.out > bcbp-data-01.txt
 
 You can then create the QR Codes for this data, which will be saved as PNG image files, and
-using Qrencode, do this:
+using Qrencode or Zint, do this:
 
   qrencode -8 -o qr-bcbp-data-01.png -r bcbp-data-01.txt
+  zint -b 58 --eci=26 -o qr-bcbp-data-01.png -i bcbp-data-01.txt
 
 #
 ####################################
@@ -38,7 +46,7 @@ int main(int argc, char *argv[])
 /* Julian Date: */
   printf("001");
 /* Class:
-  "B"=Business, "F"=First, "Y"=Economy */
+  "C"=Business, "F"=First, "Y"=Economy */
   printf("Y");
 /* Seat Number: */
   printf("001A");

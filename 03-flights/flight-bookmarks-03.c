@@ -70,8 +70,9 @@ int main(int argc, char *argv[])
   printf("<br>\n");
   printf("----------------------------------------<br>\n");
   printf("NOTE: You will have to enter the Flight Number manually to the<br>\n");
-  printf("website listed below:<br>\n");
+  printf("websites listed below:<br>\n");
   printf("<br>\n");
+  printf("<a href=\"https://www.flightaware.com/\">FlightAware</a><br>\n");
   printf("<a href=\"https://aviability.com/en/flight\">Aviability: Flight Status and Schedule</a><br>\n");
   printf("<br>\n");
   printf("----------------------------------------<br>\n");
