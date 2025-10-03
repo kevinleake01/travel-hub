@@ -67,14 +67,17 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.fastflightsearch.com/?from=%s&to=%s\">FastFlightSearch.com</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://flight-status.com/route/%s-to-%s\">Flight Status Tracker</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.aircalculator.com/flightplan.php?from=%s&to=%s\">AirCalculator.com</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://myflight.life/flight-distance-and-time/result/from/%s/to/%s\">My Flight Life: Flight Distance Calculator</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.google.com/travel/flights?q=%s-%s\">Google Flights #1</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.google.com/search?q=Flight+Route+%s-%s\">Google Flights #2</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://duckduckgo.com/?q=Flight+Route+%s-%s\">DuckDuckGo</a><br>\n", argv[1], argv[2]);
   printf("<br>\n");
   printf("----------------------------------------<br>\n");
   printf("NOTE: You will have to enter the Flight Route manually to the<br>\n");
-  printf("website listed below:<br>\n");
+  printf("websites listed below:<br>\n");
   printf("<br>\n");
+  printf("<a href=\"https://www.flightera.net/en/search\">Flightera</a><br>\n");
+  printf("<a href=\"https://airportinfo.live/search\">Airport Info Live</a><br>\n");
   printf("<a href=\"https://aviability.com/en/route\">Aviability: Routes Between Any Airports</a><br>\n");
   printf("<br>\n");
   printf("----------------------------------------<br>\n");

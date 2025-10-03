@@ -68,6 +68,7 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.directflights.com/%s\">Directflights.com</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flightsfrom.com/%s\">FlightsFrom.com</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flightsleaving.com/%s\">Flights Leaving Today</a><br>\n", argv[1]);
+  printf("<a href=\"https://myflight.life/airports/%s\">My Flight Life</a><br>\n", argv[1]);
   printf("<a href=\"https://airportguide.com/airport/info/%s\">Airport Guide</a><br>\n", argv[1]);
   printf("<a href=\"https://info.flightmapper.net/airport/%s\">FlightMapper.net</a><br>\n", argv[1]);
   printf("<a href=\"https://shipsgo.com/air/airports/%s\">Shipsgo</a><br>\n", argv[1]);
@@ -78,8 +79,10 @@ int main(int argc, char *argv[])
   printf("<br>\n");
   printf("----------------------------------------<br>\n");
   printf("NOTE: You will have to enter the Airport Code manually to the<br>\n");
-  printf("website listed below:<br>\n");
+  printf("websites listed below:<br>\n");
   printf("<br>\n");
+  printf("<a href=\"https://www.flightera.net/en/search\">Flightera</a><br>\n");
+  printf("<a href=\"https://airportinfo.live/search\">Airport Info Live</a><br>\n");
   printf("<a href=\"https://aviability.com/en/airport\">Aviability: Airport Information and Flight Status</a><br>\n");
   printf("<br>\n");
   printf("----------------------------------------<br>\n");

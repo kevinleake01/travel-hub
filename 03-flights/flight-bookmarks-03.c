@@ -60,6 +60,8 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.airportia.com/search/?q=%s%s\">Airportia</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.flight.info/%s%s\">Flightinfo</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://info.flightmapper.net/flight/%s_%s\">FlightMapper.net</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://www.flightera.net/en/flight/%s%s\">Flightera</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://airportinfo.live/flight/%s%s\">Airport Info Live</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.kayak.com/tracker/%s-%s/\">KAYAK Flight Tracker</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.flightview.com/flight-tracker/%s/%s\">OAG Flightview</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://flight-status.com/%s-%s\">Flight Status Tracker</a><br>\n", argv[1], argv[2]);
