@@ -56,10 +56,13 @@ int main(int argc, char *argv[])
   printf("<p>\n");
   printf("<a href=\"https://www.flightradar24.com/%s%s/\">Flightradar24</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.flightstats.com/v2/flight-tracker/%s/%s\">Flightstats</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://www.airnavradar.com/flight/%s%s\">AirNav Radar</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://planefinder.net/data/flight/%s%s\">Planefinder</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.avionio.com/en/flight/%s-%s\">Avionio</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.airportia.com/search/?q=%s%s\">Airportia</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.flight.info/%s%s\">Flightinfo</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://info.flightmapper.net/flight/%s_%s\">FlightMapper.net</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://www.planemapper.com/flights/%s%s\">Plane Mapper</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.flightera.net/en/flight/%s%s\">Flightera</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://airportinfo.live/flight/%s%s\">Airport Info Live</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.kayak.com/tracker/%s-%s/\">KAYAK Flight Tracker</a><br>\n", argv[1], argv[2]);
