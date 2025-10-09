@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
   printf("<h1>Flight Number:</h1>\n");
   printf("<h2>%s %s</h2>\n", argv[1], argv[2]);
   printf("<p>\n");
-  printf("<a href=\"https://www.flightradar24.com/%s%s/\">Flightradar24</a><br>\n", argv[1], argv[2]);
+  printf("<a href=\"https://www.flightradar24.com/data/flights/%s%s\">Flightradar24</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.flightstats.com/v2/flight-tracker/%s/%s\">Flightstats</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://www.airnavradar.com/flight/%s%s\">AirNav Radar</a><br>\n", argv[1], argv[2]);
   printf("<a href=\"https://planefinder.net/data/flight/%s%s\">Planefinder</a><br>\n", argv[1], argv[2]);

@@ -54,8 +54,8 @@ int main(int argc, char *argv[])
   printf("<h1>Flight Arrivals and Departures</h1>\n");
   printf("<h2>For Airport: %s</h2>\n", argv[1]);
   printf("<p>\n");
-  printf("<a href=\"https://www.flightradar24.com/airport/%s/arrivals\">Flightradar24 Arrivals</a><br>\n", argv[1]);
-  printf("<a href=\"https://www.flightradar24.com/airport/%s/departures\">Flightradar24 Departures</a><br>\n", argv[1]);
+  printf("<a href=\"https://www.flightradar24.com/data/airports/%s/arrivals\">Flightradar24 Arrivals</a><br>\n", argv[1]);
+  printf("<a href=\"https://www.flightradar24.com/data/airports/%s/departures\">Flightradar24 Departures</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flightaware.com/live/airport/%s\">Flightaware</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flightstats.com/v2/flight-tracker/arrivals/%s\">Flightstats: Arrivals</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flightstats.com/v2/flight-tracker/departures/%s\">Flightstats: Departures</a><br>\n", argv[1]);
