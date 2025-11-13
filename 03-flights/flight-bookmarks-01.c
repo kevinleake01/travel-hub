@@ -63,6 +63,7 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.avionio.com/en/airport/%s/departures\">Avionio: Departures</a><br>\n", argv[1]);
   printf("<a href=\"https://www.airportia.com/search/?q=%s\">Airportia</a><br>\n", argv[1]);
   printf("<a href=\"https://www.airportinformation.com/%s/\">Airport Information</a><br>\n", argv[1]);
+  printf("<a href=\"https://www.airportmaps.com/%s\">Airportmaps.com</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flig.ht/s/%s\">Flig.ht/s</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flight.info/%s/arrivals\">Flightinfo: Arrivals</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flight.info/%s/departures\">Flightinfo: Departures</a><br>\n", argv[1]);
@@ -73,6 +74,8 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.flightsleaving.com/%s\">Flights Leaving Today</a><br>\n", argv[1]);
   printf("<a href=\"https://myflight.life/airports/%s\">My Flight Life</a><br>\n", argv[1]);
   printf("<a href=\"https://airportguide.com/airport/info/%s\">Airport Guide</a><br>\n", argv[1]);
+  printf("<a href=\"https://allairportmaps.com/airport/%s\">AllAirportMaps</a><br>\n", argv[1]);
+  printf("<a href=\"https://www.ifly.com/airports/%s\">iFly.com</a><br>\n", argv[1]);
   printf("<a href=\"https://info.flightmapper.net/airport/%s\">FlightMapper.net</a><br>\n", argv[1]);
   printf("<a href=\"https://www.planemapper.com/airports/%s\">Plane Mapper</a><br>\n", argv[1]);
   printf("<a href=\"https://flight-report.com/en/airport/%s/\">Flight Report</a><br>\n", argv[1]);
@@ -80,8 +83,10 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://shipsgo.com/air/airports/%s\">Shipsgo</a><br>\n", argv[1]);
   printf("<a href=\"https://www.google.com/search?q=%s+Arrivals\">Google: Airport Arrivals</a><br>\n", argv[1]);
   printf("<a href=\"https://www.google.com/search?q=%s+Departures\">Google: Airport Departures</a><br>\n", argv[1]);
+  printf("<a href=\"https://www.google.com/search?q=%s+Airport+Map\">Google: Airport Maps</a><br>\n", argv[1]);
   printf("<a href=\"https://duckduckgo.com/?q=%s+Arrivals\">DuckDuckGo: Airport Arrivals</a><br>\n", argv[1]);
   printf("<a href=\"https://duckduckgo.com/?q=%s+Departures\">DuckDuckGo: Airport Departures</a><br>\n", argv[1]);
+  printf("<a href=\"https://duckduckgo.com/?q=%s+Airport+Map\">DuckDuckGo: Airport Maps</a><br>\n", argv[1]);
   printf("<br>\n");
   printf("----------------------------------------<br>\n");
   printf("NOTE: You will have to enter the Airport Code manually to the<br>\n");
