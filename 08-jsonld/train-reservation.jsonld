@@ -1,5 +1,5 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "TrainReservation",
     "priceCurrency": "GBP",
     "reservationFor": {
@@ -20,10 +20,10 @@
         },
         "arrivalTime": {
             "@type": "QDateTime",
-            "@value": "2024-06-10T17:52:00+01:00",
+            "@value": "2026-10-02T17:57:38+01:00",
             "timezone": "Europe/London"
         },
-        "departureDay": "2024-06-10",
+        "departureDay": "2026-10-02",
         "departureStation": {
             "@type": "TrainStation",
             "address": {
@@ -40,27 +40,27 @@
         },
         "departureTime": {
             "@type": "QDateTime",
-            "@value": "2024-06-10T16:00:00+01:00",
+            "@value": "2026-10-02T16:00:00+01:00",
             "timezone": "Europe/London"
         },
         "trainName": "Train",
         "trainNumber": "1246722"
     },
-    "reservationNumber": "E38G44X21578",
-    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservationNumber": "01KE6W8SW9DNT2J8V3ZYY15AK0",
+    "reservationStatus": "https://schema.org/ReservationConfirmed",
     "reservedTicket": {
         "@type": "Ticket",
-        "ticketNumber": "E38G44X21578",
-        "ticketToken": "qrCode:E38G44X21578",
+        "ticketNumber": "01KE6W8SW9DNT2J8V3ZYY15AK0",
+        "ticketToken": "qrCode:01KE6W8SW9DNT2J8V3ZYY15AK0",
         "ticketedSeat": {
             "@type": "Seat",
-            "seatNumber": "32",
-            "seatSection": "F",
+            "seatNumber": "19",
+            "seatSection": "C",
             "seatingType": "Economy"
         }
     },
     "underName": {
         "@type": "Person",
-        "name": "Name Surname"
+        "name": "Julinda Mazpender"
     }
 }

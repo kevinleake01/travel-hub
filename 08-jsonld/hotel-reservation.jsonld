@@ -1,14 +1,14 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "LodgingReservation",
     "checkinTime": {
         "@type": "QDateTime",
-        "@value": "2024-06-10T15:37:00-04:00",
+        "@value": "2026-12-04T15:49:00-04:00",
         "timezone": "America/New_York"
     },
     "checkoutTime": {
         "@type": "QDateTime",
-        "@value": "2024-06-14T10:17:00-04:00",
+        "@value": "2026-12-07T10:13:00-04:00",
         "timezone": "America/New_York"
     },
     "priceCurrency": "USD",
@@ -28,15 +28,15 @@
         },
         "name": "Universal's Cabana Bay Beach Resort"
     },
-    "reservationNumber": "M479F227493265",
-    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservationNumber": "01KE6TRHPFZS51HPHVGW28W1RK",
+    "reservationStatus": "https://schema.org/ReservationConfirmed",
     "reservedTicket": {
         "@type": "Ticket",
-        "ticketNumber": "M479F227493265",
-        "ticketToken": "qrCode:M479F227493265"
+        "ticketNumber": "01KE6TRHPFZS51HPHVGW28W1RK",
+        "ticketToken": "qrCode:01KE6TRHPFZS51HPHVGW28W1RK"
     },
     "underName": {
         "@type": "Person",
-        "name": "Name Surname"
+        "name": "Dana Lenvascanda"
     }
 }

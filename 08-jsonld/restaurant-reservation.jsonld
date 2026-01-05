@@ -1,14 +1,14 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "FoodEstablishmentReservation",
     "startTime": {
         "@type": "QDateTime",
-        "@value": "2024-07-03T18:00:00+04:00",
+        "@value": "2026-11-18T18:05:00+04:00",
         "timezone": "Asia/Dubai"
     },
     "endTime": {
         "@type": "QDateTime",
-        "@value": "2024-07-03T20:00:00+04:00",
+        "@value": "2026-11-18T20:18:12+04:00",
         "timezone": "Asia/Dubai"
     },
     "partySize": 0,
@@ -30,14 +30,14 @@
         "name": "The Villa Seafood Restaurant",
         "url": "https://thevilla-restaurant.com/"
     },
-    "reservationNumber": "875K466F191",
-    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservationNumber": "01KE6V4S4ZSYE6BZR02NTTXAN4",
+    "reservationStatus": "https://schema.org/ReservationConfirmed",
     "reservedTicket": {
         "@type": "Ticket",
-        "ticketToken": "qrcode:875K466F191"
+        "ticketToken": "qrcode:01KE6V4S4ZSYE6BZR02NTTXAN4"
     },
     "underName": {
         "@type": "Person",
-        "name": "Name Surname"
+        "name": "Shafalia Marsanetti"
     }
 }

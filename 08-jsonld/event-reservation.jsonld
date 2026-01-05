@@ -1,17 +1,17 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "EventReservation",
     "priceCurrency": "GBP",
     "reservationFor": {
         "@type": "Event",
         "doorTime": {
             "@type": "QDateTime",
-            "@value": "2024-06-28T15:08:00+01:00",
+            "@value": "2027-06-23T15:08:00+01:00",
             "timezone": "Europe/London"
         },
         "endDate": {
             "@type": "QDateTime",
-            "@value": "2024-06-30T23:48:00+01:00",
+            "@value": "2027-06-27T23:48:00+01:00",
             "timezone": "Europe/London"
         },
         "location": {
@@ -30,22 +30,22 @@
             },
             "name": "Worthy Farm"
         },
-        "name": "Glastonbury 2024",
+        "name": "Glastonbury 2027",
         "startDate": {
             "@type": "QDateTime",
-            "@value": "2024-06-28T17:00:00+01:00",
+            "@value": "2024-06-23T17:00:00+01:00",
             "timezone": "Europe/London"
         },
         "url": "https://glastonburyfestivals.co.uk/"
     },
-    "reservationNumber": "GIYDENBQGYYTCLJRGAZDQNJSIBVWK5TJNZWGKYLLMUYDCJBG",
-    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservationNumber": "01KE6SZ0K8D78H1VCH7TZ6TFDE",
+    "reservationStatus": "https://schema.org/ReservationConfirmed",
     "reservedTicket": {
         "@type": "Ticket",
-        "ticketToken": "qrcode:GIYDENBQGYYTCLJRGAZDQNJSIBVWK5TJNZWGKYLLMUYDCJBG"
+        "ticketToken": "qrcode:01KE6SZ0K8D78H1VCH7TZ6TFDE"
     },
     "underName": {
         "@type": "Person",
-        "name": "Name Surname"
+        "name": "Jalandia Kensifiza"
     }
 }

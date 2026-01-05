@@ -1,5 +1,5 @@
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "BoatReservation",
     "priceCurrency": "GBP",
     "reservationFor": {
@@ -20,7 +20,7 @@
         },
         "departureTime": {
             "@type": "QDateTime",
-            "@value": "2024-07-08T14:00:00+01:00",
+            "@value": "2026-08-07T14:00:00+01:00",
             "timezone": "Europe/London"
         },
         "arrivalBoatTerminal": {
@@ -39,18 +39,18 @@
         },
         "arrivalTime": {
             "@type": "QDateTime",
-            "@value": "2024-07-08T16:45:00+02:00",
+            "@value": "2026-08-07T16:45:00+02:00",
             "timezone": "Europe/Paris"
         }
     },
-    "reservationNumber": "TFX398502198",
-    "reservationStatus": "http://schema.org/ReservationConfirmed",
+    "reservationNumber": "01KE6T95TZZH7M99NZVHZBCQVX",
+    "reservationStatus": "https://schema.org/ReservationConfirmed",
     "reservedTicket": {
         "@type": "Ticket",
-        "ticketToken": "qrcode:TFX398502198"
+        "ticketToken": "qrcode:01KE6T95TZZH7M99NZVHZBCQVX"
     },
     "underName": {
         "@type": "Person",
-        "name": "Name Surname"
+        "name": "Triana Escandara"
     }
 }
