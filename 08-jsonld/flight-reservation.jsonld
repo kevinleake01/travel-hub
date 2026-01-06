@@ -2,7 +2,7 @@
     "@context": "https://schema.org",
     "@type": "FlightReservation",
     "airplaneSeat": "1A",
-    "modifiedTime": "2024-06-07T00:00:00",
+    "modifiedTime": "2026-01-06T21:42:37+00:00",
     "passengerSequenceNumber": "1",
     "programMembershipUsed": {
         "@type": "ProgramMembership",

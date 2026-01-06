@@ -19,9 +19,8 @@
             "name": "Dover"
         },
         "departureTime": {
-            "@type": "QDateTime",
-            "@value": "2026-08-07T14:00:00+01:00",
-            "timezone": "Europe/London"
+            "@type": "DateTime",
+            "@value": "2026-08-07T14:00:00+01:00"
         },
         "arrivalBoatTerminal": {
             "@type": "BoatTerminal",
@@ -38,16 +37,15 @@
             "name": "Calais"
         },
         "arrivalTime": {
-            "@type": "QDateTime",
-            "@value": "2026-08-07T16:45:00+02:00",
-            "timezone": "Europe/Paris"
+            "@type": "DateTime",
+            "@value": "2026-08-07T16:45:00+02:00"
         }
     },
     "reservationNumber": "01KE6T95TZZH7M99NZVHZBCQVX",
     "reservationStatus": "https://schema.org/ReservationConfirmed",
     "reservedTicket": {
         "@type": "Ticket",
-        "ticketToken": "qrcode:01KE6T95TZZH7M99NZVHZBCQVX"
+        "ticketToken": "qrCode:01KE6T95TZZH7M99NZVHZBCQVX"
     },
     "underName": {
         "@type": "Person",

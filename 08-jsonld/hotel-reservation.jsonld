@@ -2,14 +2,12 @@
     "@context": "https://schema.org",
     "@type": "LodgingReservation",
     "checkinTime": {
-        "@type": "QDateTime",
-        "@value": "2026-12-04T15:49:00-04:00",
-        "timezone": "America/New_York"
+        "@type": "DateTime",
+        "@value": "2026-12-04T15:49:00-04:00"
     },
     "checkoutTime": {
-        "@type": "QDateTime",
-        "@value": "2026-12-07T10:13:00-04:00",
-        "timezone": "America/New_York"
+        "@type": "DateTime",
+        "@value": "2026-12-07T10:13:00-04:00"
     },
     "priceCurrency": "USD",
     "reservationFor": {
