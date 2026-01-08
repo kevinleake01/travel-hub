@@ -1,41 +1,40 @@
 {
-    "@context": "https://schema.org",
-    "@type": "FoodEstablishmentReservation",
-    "startTime": {
-        "@type": "DateTime",
-        "@value": "2026-11-18T18:05:00+04:00"
+  "@context": "https://schema.org",
+  "@type": "FoodEstablishmentReservation",
+  "startTime": {
+    "@type": "DateTime",
+    "@value": "2026-11-18T18:05:00+04:00"
+  },
+  "endTime": {
+    "@type": "DateTime",
+    "@value": "2026-11-18T20:18:12+04:00"
+  },
+  "partySize": 0,
+  "priceCurrency": "AED",
+  "reservationFor": {
+    "@type": "FoodEstablishment",
+    "address": {
+      "@type": "PostalAddress",
+      "addressCountry": "AE",
+      "addressLocality": "Abu Dhabi",
+      "postalCode": "7HPP8GCR+M2",
+      "streetAddress": "Mohamed Bin Zayed City - Z20"
     },
-    "endTime": {
-        "@type": "DateTime",
-        "@value": "2026-11-18T20:18:12+04:00"
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 24.32171,
+      "longitude": 54.54009
     },
-    "partySize": 0,
-    "priceCurrency": "AED",
-    "reservationFor": {
-        "@type": "FoodEstablishment",
-        "address": {
-            "@type": "PostalAddress",
-            "addressCountry": "AE",
-            "addressLocality": "Abu Dhabi",
-            "postalCode": "7HPP8GCR+M2",
-            "streetAddress": "Mohamed Bin Zayed City - Z20"
-        },
-        "geo": {
-            "@type": "GeoCoordinates",
-            "latitude": 24.32171,
-            "longitude": 54.54009
-        },
-        "name": "The Villa Seafood Restaurant",
-        "url": "https://thevilla-restaurant.com/"
-    },
-    "reservationNumber": "01KE6V4S4ZSYE6BZR02NTTXAN4",
-    "reservationStatus": "https://schema.org/ReservationConfirmed",
-    "reservedTicket": {
-        "@type": "Ticket",
-        "ticketToken": "qrCode:01KE6V4S4ZSYE6BZR02NTTXAN4"
-    },
-    "underName": {
-        "@type": "Person",
-        "name": "Shafalia Marsanetti"
-    }
+    "name": "The Villa Seafood Restaurant",
+    "url": "https://thevilla-restaurant.com/"
+  },
+  "reservationStatus": "https://schema.org/ReservationConfirmed",
+  "reservedTicket": {
+    "@type": "Ticket",
+    "ticketToken": "qrCode:01KE6V4S4ZSYE6BZR02NTTXAN4"
+  },
+  "underName": {
+    "@type": "Person",
+    "name": "Shafalia Marsanetti"
+  }
 }

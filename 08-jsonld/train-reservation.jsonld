@@ -1,64 +1,62 @@
 {
-    "@context": "https://schema.org",
-    "@type": "TrainReservation",
-    "priceCurrency": "GBP",
-    "reservationFor": {
-        "@type": "TrainTrip",
-        "arrivalStation": {
-            "@type": "TrainStation",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "GB",
-                "addressLocality": "York (York)"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 53.95802,
-                "longitude": -1.09320
-            },
-            "name": "York Rail Station"
-        },
-        "arrivalTime": {
-            "@type": "DateTime",
-            "@value": "2026-10-02T17:57:38+01:00"
-        },
-        "departureDay": "2026-10-02",
-        "departureStation": {
-            "@type": "TrainStation",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "GB",
-                "addressLocality": "Kings Cross (London)"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.53159,
-                "longitude": -0.12398
-            },
-            "name": "London King's Cross Rail Station"
-        },
-        "departureTime": {
-            "@type": "DateTime",
-            "@value": "2026-10-02T16:00:00+01:00"
-        },
-        "trainName": "Train",
-        "trainNumber": "1246722"
+  "@context": "https://schema.org",
+  "@type": "TrainReservation",
+  "priceCurrency": "GBP",
+  "reservationFor": {
+    "@type": "TrainTrip",
+    "arrivalStation": {
+      "@type": "TrainStation",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GB",
+        "addressLocality": "York (York)"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 53.95802,
+        "longitude": -1.0932
+      },
+      "name": "York Rail Station"
     },
-    "reservationNumber": "01KE6W8SW9DNT2J8V3ZYY15AK0",
-    "reservationStatus": "https://schema.org/ReservationConfirmed",
-    "reservedTicket": {
-        "@type": "Ticket",
-        "ticketNumber": "01KE6W8SW9DNT2J8V3ZYY15AK0",
-        "ticketToken": "qrCode:01KE6W8SW9DNT2J8V3ZYY15AK0",
-        "ticketedSeat": {
-            "@type": "Seat",
-            "seatNumber": "19",
-            "seatSection": "C",
-            "seatingType": "Economy"
-        }
+    "arrivalTime": {
+      "@type": "DateTime",
+      "@value": "2026-10-02T17:57:38+01:00"
     },
-    "underName": {
-        "@type": "Person",
-        "name": "Julinda Mazpender"
+    "departureStation": {
+      "@type": "TrainStation",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GB",
+        "addressLocality": "Kings Cross (London)"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.53159,
+        "longitude": -0.12398
+      },
+      "name": "London King's Cross Rail Station"
+    },
+    "departureTime": {
+      "@type": "DateTime",
+      "@value": "2026-10-02T16:00:00+01:00"
+    },
+    "trainName": "Train",
+    "trainNumber": "1246722"
+  },
+  "reservationStatus": "https://schema.org/ReservationConfirmed",
+  "reservedTicket": {
+    "@type": "Ticket",
+    "ticketNumber": "01KE6W8SW9DNT2J8V3ZYY15AK0",
+    "ticketToken": "qrCode:01KE6W8SW9DNT2J8V3ZYY15AK0",
+    "ticketedSeat": {
+      "@type": "Seat",
+      "seatNumber": "19",
+      "seatSection": "C",
+      "seatingType": "Economy"
     }
+  },
+  "underName": {
+    "@type": "Person",
+    "name": "Julinda Mazpender"
+  }
 }

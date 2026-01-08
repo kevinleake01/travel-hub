@@ -1,66 +1,76 @@
 {
-    "@context": "https://schema.org",
-    "@type": "FlightReservation",
-    "airplaneSeat": "1A",
-    "modifiedTime": "2026-01-06T21:42:37+00:00",
-    "passengerSequenceNumber": "1",
-    "programMembershipUsed": {
-        "@type": "ProgramMembership",
-        "member": {
-            "@type": "Person",
-            "familyName": "SURNAME",
-            "givenName": "NAME",
-            "name": "NAME SURNAME"
-        },
-        "membershipNumber": "0000000000000001",
-        "programName": "BA"
+  "@context": "https://schema.org",
+  "@type": "FlightReservation",
+  "modifiedTime": "2026-01-09T21:42:37+00:00",
+  "passengerSequenceNumber": "1",
+  "programMembershipUsed": {
+    "@type": "ProgramMembership",
+    "member": {
+      "@type": "Person",
+      "familyName": "SURNAME",
+      "givenName": "NAME",
+      "name": "NAME SURNAME"
     },
-    "reservationFor": {
-        "@type": "Flight",
-        "airline": {
-            "@type": "Airline",
-            "iataCode": "BA"
-        },
-        "arrivalAirport": {
-            "@type": "Airport",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "US"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 40.63970184326172,
-                "longitude": -73.77890014648438
-            },
-            "iataCode": "JFK"
-        },
-        "departureAirport": {
-            "@type": "Airport",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "GB"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.46609878540039,
-                "longitude": -0.4656749963760376
-            },
-            "iataCode": "LHR"
-        },
-        "departureDay": "2031-01-01",
-        "flightNumber": "1234"
+    "membershipNumber": "0000000000000001",
+    "programName": "BA"
+  },
+  "reservationFor": {
+    "@type": "Flight",
+    "flightNumber": "BA1234",
+    "provider": {
+      "@type": "Airline",
+      "name": "British Airways",
+      "iataCode": "BA",
+      "boardingPolicy": "https://schema.org/ZoneBoardingPolicy"
     },
-    "reservationNumber": "ABC1234",
-    "reservationStatus": "https://schema.org/ReservationConfirmed",
-    "reservedTicket": {
-        "@type": "Ticket",
-        "ticketNumber": "125 0000000001",
-        "ticketToken": "qrCode:M1SURNAME/NAME        EABC1234LHRJFKBA 1234 001Y001A0001 367>7320WW1001BBA 0000000001001000000000200100000000030012A125000000000100BA BA 0000000000000001425KY12345^10512345"
+    "seller": {
+      "@type": "Airline",
+      "name": "British Airways",
+      "iataCode": "BA"
     },
-    "underName": {
-        "@type": "Person",
-        "familyName": "SURNAME",
-        "givenName": "NAME",
-        "name": "NAME SURNAME"
+    "arrivalAirport": {
+      "@type": "Airport",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.63970184326172,
+        "longitude": -73.77890014648438
+      },
+      "iataCode": "JFK"
+    },
+    "departureAirport": {
+      "@type": "Airport",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GB"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.46609878540039,
+        "longitude": -0.4656749963760376
+      },
+      "iataCode": "LHR"
     }
+  },
+  "reservationStatus": "https://schema.org/ReservationConfirmed",
+  "reservedTicket": {
+    "@type": "Ticket",
+    "ticketNumber": "125 0000000001",
+    "ticketToken": "qrCode:M1SURNAME/NAME        EABC1234LHRJFKBA 1234 001Y001A0001 367>7320WW1001BBA 0000000001001000000000200100000000030012A125000000000100BA BA 0000000000000001425KY12345^10512345",
+    "ticketedSeat": {
+      "@type": "Seat",
+      "seatNumber": "1",
+      "seatRow": "A",
+      "seatingType": "Economy"
+    }
+  },
+  "underName": {
+    "@type": "Person",
+    "familyName": "SURNAME",
+    "givenName": "NAME",
+    "name": "NAME SURNAME"
+  }
 }

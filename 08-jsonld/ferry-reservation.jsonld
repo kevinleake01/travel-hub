@@ -1,54 +1,53 @@
 {
-    "@context": "https://schema.org",
-    "@type": "BoatReservation",
-    "priceCurrency": "GBP",
-    "reservationFor": {
-        "@type": "BoatTrip",
-        "departureBoatTerminal": {
-            "@type": "BoatTerminal",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "GB",
-                "addressLocality": "Dover"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 51.1268,
-                "longitude": 1.3293
-            },
-            "name": "Dover"
-        },
-        "departureTime": {
-            "@type": "DateTime",
-            "@value": "2026-08-07T14:00:00+01:00"
-        },
-        "arrivalBoatTerminal": {
-            "@type": "BoatTerminal",
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "FR",
-                "addressLocality": "Calais"
-            },
-            "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": 50.9670,
-                "longitude": 1.8623
-            },
-            "name": "Calais"
-        },
-        "arrivalTime": {
-            "@type": "DateTime",
-            "@value": "2026-08-07T16:45:00+02:00"
-        }
+  "@context": "https://schema.org",
+  "@type": "BoatReservation",
+  "priceCurrency": "GBP",
+  "reservationFor": {
+    "@type": "BoatTrip",
+    "departureBoatTerminal": {
+      "@type": "BoatTerminal",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GB",
+        "addressLocality": "Dover"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.1268,
+        "longitude": 1.3293
+      },
+      "name": "Dover"
     },
-    "reservationNumber": "01KE6T95TZZH7M99NZVHZBCQVX",
-    "reservationStatus": "https://schema.org/ReservationConfirmed",
-    "reservedTicket": {
-        "@type": "Ticket",
-        "ticketToken": "qrCode:01KE6T95TZZH7M99NZVHZBCQVX"
+    "departureTime": {
+      "@type": "DateTime",
+      "@value": "2026-08-07T14:00:00+01:00"
     },
-    "underName": {
-        "@type": "Person",
-        "name": "Triana Escandara"
+    "arrivalBoatTerminal": {
+      "@type": "BoatTerminal",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "FR",
+        "addressLocality": "Calais"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 50.967,
+        "longitude": 1.8623
+      },
+      "name": "Calais"
+    },
+    "arrivalTime": {
+      "@type": "DateTime",
+      "@value": "2026-08-07T16:45:00+02:00"
     }
+  },
+  "reservationStatus": "https://schema.org/ReservationConfirmed",
+  "reservedTicket": {
+    "@type": "Ticket",
+    "ticketToken": "qrCode:01KE6T95TZZH7M99NZVHZBCQVX"
+  },
+  "underName": {
+    "@type": "Person",
+    "name": "Triana Escandara"
+  }
 }
