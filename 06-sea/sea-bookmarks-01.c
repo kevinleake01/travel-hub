@@ -54,9 +54,9 @@ int main(int argc, char *argv[])
   printf("<h1>Seaport Information</h1>\n");
   printf("<h2>For port: %s</h2>\n", argv[1]);
   printf("<p>\n");
-  printf("<a href=\"https://magicport.ai/ports/%s\">MagicPort</a><br>\n", argv[1]);
   printf("<a href=\"https://www.fluentcargo.com/ports/locode/%s\">Fluent Cargo</a><br>\n", argv[1]);
   printf("<a href=\"https://www.vesselfinder.com/ports/%s\">VesselFinder</a><br>\n", argv[1]);
+  printf("<a href=\"https://www.marineradar.com/port/%s\">Marine Radar</a><br>\n", argv[1]);
   printf("<a href=\"https://www.shipxplorer.com/data/ports/%s\">ShipXplorer</a><br>\n", argv[1]);
   printf("<a href=\"https://www.google.com/search?q=UN+LOCODE+%s\">Google: UN/LOCODE</a><br>\n", argv[1]);
   printf("<a href=\"https://duckduckgo.com/?q=UN+LOCODE+%s\">DuckDuckGo: UN/LOCODE</a><br>\n", argv[1]);
