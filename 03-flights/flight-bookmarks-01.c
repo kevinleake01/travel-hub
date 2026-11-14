@@ -72,6 +72,7 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.eoob.com.ng/%s/\">EOOB Flight Information NG</a><br>\n", argv[1]);
   printf("<a href=\"https://www.eoob.co.za/%s/\">EOOB Flight Information ZA</a><br>\n", argv[1]);
   printf("<a href=\"https://www.airportmaps.com/%s\">Airportmaps.com</a><br>\n", argv[1]);
+  printf("<a href=\"https://allairportmaps.com/airport/%s\">AllAirportMaps</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flig.ht/s/%s\">Flig.ht/s</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flight.info/%s/arrivals\">Flightinfo: Arrivals</a><br>\n", argv[1]);
   printf("<a href=\"https://www.flight.info/%s/departures\">Flightinfo: Departures</a><br>\n", argv[1]);
@@ -86,7 +87,6 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.flightsleaving.com/%s\">Flights Leaving Today</a><br>\n", argv[1]);
   printf("<a href=\"https://myflight.life/airports/%s\">My Flight Life</a><br>\n", argv[1]);
   printf("<a href=\"https://airportguide.com/airport/info/%s\">Airport Guide</a><br>\n", argv[1]);
-  printf("<a href=\"https://allairportmaps.com/airport/%s\">AllAirportMaps</a><br>\n", argv[1]);
   printf("<a href=\"https://www.ifly.com/airports/%s\">iFly.com</a><br>\n", argv[1]);
   printf("<a href=\"https://info.flightmapper.net/airport/%s\">FlightMapper.net</a><br>\n", argv[1]);
   printf("<a href=\"https://www.planemapper.com/airports/%s\">Plane Mapper</a><br>\n", argv[1]);
@@ -108,6 +108,9 @@ int main(int argc, char *argv[])
   printf("<a href=\"https://www.flightera.net/en/search\">Flightera</a><br>\n");
   printf("<a href=\"https://airportinfo.live/search\">Airport Info Live</a><br>\n");
   printf("<a href=\"https://aviability.com/en/airport\">Aviability: Airport Information and Flight Status</a><br>\n");
+  printf("<a href=\"https://mapofairport.com/\">Mapofairport.com</a><br>\n");
+  printf("<a href=\"https://airportmaphq.com/\">AirportMapHQ.com</a><br>\n");
+  printf("<a href=\"https://all-maps.com/category/airport-terminal-maps/\">All-Maps.com: Airport Terminal Maps</a><br>\n");
   printf("<br>\n");
   printf("----------------------------------------<br>\n");
   printf("</p>\n");
